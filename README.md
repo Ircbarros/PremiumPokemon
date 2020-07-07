@@ -18,5 +18,5 @@ ou O (respetivamente: norte, sul, este, oeste).
 
 - Python 3.6
 - Pygame
-- PyAutoGUI(http://www.paramiko.org/)
+- PyAutoGUI
 
