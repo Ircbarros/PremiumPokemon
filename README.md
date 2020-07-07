@@ -20,6 +20,3 @@ ou O (respetivamente: norte, sul, este, oeste).
 - Pygame
 - PyAutoGUI(http://www.paramiko.org/)
 
-
-Developer: [Ítalo Barros<br>](https://www.linkedin.com/in/ircbarros/)
-
