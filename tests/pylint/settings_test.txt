@@ -1,0 +1,105 @@
+************* Module settings
+settings.py:26:65: C0303: Trailing whitespace (trailing-whitespace)
+settings.py:41:0: R0902: Too many instance attributes (9/7) (too-many-instance-attributes)
+settings.py:41:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+settings.py:65:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
+settings.py:65:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+settings.py:87:0: R0902: Too many instance attributes (18/7) (too-many-instance-attributes)
+settings.py:87:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+
+Report
+======
+47 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    pygame (settings)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |49     |39.84 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |36     |29.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |29     |23.58 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |9      |7.32  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|too-many-instance-attributes |3           |
++-----------------------------+------------+
+|too-few-public-methods       |3           |
++-----------------------------+------------+
+|trailing-whitespace          |1           |
++-----------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 8.51/10 (previous run: 8.51/10, +0.00)
+

@@ -1,0 +1,179 @@
+************* Module sprites
+sprites.py:28:65: C0303: Trailing whitespace (trailing-whitespace)
+sprites.py:282:0: C0330: Wrong hanging indentation (add 4 spaces).
+        '''
+                    ______________                               
+                ,===:'.,            `-._                           
+                    `:.`---.__         `-._                       
+                    `:.     `--.         `.                     
+                        \.        `.         `.                   
+                (,,(,    \.         `.   ____,-`.,                
+            (,'     `/   \.   ,--.___`.'                         
+        ,  ,'  ,--.  `,   \.;'         `                         
+        `{D, {    \  :    \;                                    
+            V,,'    /  /    //                                    
+            j;;    /  ,' ,-//.    ,---.      ,                    
+            \;'   /  ,' /  _  \  /  _  \   ,'/                    
+                \   `'  / \  `'  / \  `.' /                     
+                    `.___,'   `.__,'   `.__,' 
+
+            OH NO! YOU ENTERED IN THE WORLD LIMIT!
+            The world is infinte but you will face
+            some bad dragons after here, please go
+            back and keep catching some Pokemons!
+            ''')
+        ^   | (bad-continuation)
+sprites.py:50:6: I1101: Module 'pygame.math' has no 'Vector2' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+sprites.py:61:0: R0902: Too many instance attributes (15/7) (too-many-instance-attributes)
+sprites.py:73:4: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:73:4: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:162:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+sprites.py:187:8: W0603: Using the global statement (global-statement)
+sprites.py:230:26: W0622: Redefining built-in 'dir' (redefined-builtin)
+sprites.py:280:4: R0201: Method could be a function (no-self-use)
+sprites.py:102:12: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:110:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:114:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:119:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:123:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:135:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:142:16: W0201: Attribute 'image' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:103:12: W0201: Attribute 'rect' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:161:8: W0201: Attribute 'values' defined outside __init__ (attribute-defined-outside-init)
+sprites.py:325:8: C0103: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:326:8: C0103: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:318:4: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:318:4: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:322:21: E1121: Too many positional arguments for lambda call (too-many-function-args)
+sprites.py:305:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+sprites.py:349:8: C0103: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:350:8: C0103: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:343:4: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:343:4: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+sprites.py:332:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+sprites.py:36:0: W0611: Unused import time (unused-import)
+sprites.py:37:0: W0611: Unused import threading (unused-import)
+sprites.py:40:0: C0411: third party import "import pyautogui" should be placed before "import world.settings as settings" (wrong-import-order)
+sprites.py:41:0: C0411: third party import "import pygame as pg" should be placed before "import world.settings as settings" (wrong-import-order)
+
+
+Report
+======
+174 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |11     |NC         |NC         |90.91       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    pyautogui (sprites)
+    pygame (sprites)
+    world 
+      \-settings (sprites)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |182    |51.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |122    |34.37 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |21     |5.92  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |30     |8.45  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |14     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |10          |
++-------------------------------+------------+
+|attribute-defined-outside-init |9           |
++-------------------------------+------------+
+|wrong-import-order             |2           |
++-------------------------------+------------+
+|unused-import                  |2           |
++-------------------------------+------------+
+|too-few-public-methods         |2           |
++-------------------------------+------------+
+|trailing-whitespace            |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-function-args         |1           |
++-------------------------------+------------+
+|redefined-builtin              |1           |
++-------------------------------+------------+
+|no-self-use                    |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|global-statement               |1           |
++-------------------------------+------------+
+|c-extension-no-member          |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 7.87/10 (previous run: 7.87/10, +0.00)
+
