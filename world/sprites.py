@@ -176,7 +176,6 @@ class Player(pg.sprite.Sprite):
             pyautogui.keyUp('s')
             return
 
-
     
     def send_path(self):
         '''
